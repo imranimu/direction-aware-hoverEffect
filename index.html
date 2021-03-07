@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Direction-Aware Hover Effect with CSS3 and jQuery</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="js/modernizr.custom.97074.js"></script>
+    </head>
+    <body>
+        <div class="container">
+			<!-- Codrops top bar -->
+            
+			<section>
+				<ul id="da-thumbs" class="da-thumbs">
+					<li>
+						<a href="http://dribbble.com/shots/505046-Menu">
+							<img src="images/1.jpg" />
+							<div><span></span></div>
+						</a>
+						<a href="http://dribbble.com/shots/504336-TN-Aquarium">
+							<img src="images/2.jpg" />
+							<div><span></span></div>
+						</a>
+					
+					
+						<a href="http://dribbble.com/shots/504336-TN-Aquarium">
+							<img src="images/2.jpg" />
+							<div><span></span></div>
+						</a>
+					</li>
+					<li>
+						<a href="http://dribbble.com/shots/504197-Mr-Crabs">
+							<img src="images/3.jpg" />
+							<div><span>Mr. Crabs by John Generalov</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="http://dribbble.com/shots/503731-Gallery-of-Mo-2-Mo-logo">
+							<img src="images/4.jpg" />
+							<div><span>Gallery of Mo 2.Mo logo by Adam Campion</span></div>
+						</a>
+					</li>
+					<li>	
+						<a href="http://dribbble.com/shots/503058-Ice-Cream-nom-nom">
+							<img src="images/5.jpg" />
+							<div><span>Ice Cream - nom nom by Eight Hour Day</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/12.jpg" />
+							<div><span>Seahorse by Trevor Basset</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/12.jpg" />
+							<div><span>Seahorse by Trevor Basset</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/12.jpg" />
+							<div><span>Seahorse by Trevor Basset</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/12.jpg" />
+							<div><span>Seahorse by Trevor Basset</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/12.jpg" />
+							<div><span>Seahorse by Trevor Basset</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/12.jpg" />
+							<div><span>Seahorse by Trevor Basset</span></div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/12.jpg" />
+							<div><span>Seahorse by Trevor Basset</span></div>
+						</a>
+					</li>
+				</ul>
+			</section>
+        </div>
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+		<script type="text/javascript">
+			$(function() {
+			
+				$(' #da-thumbs >li >a ').each( function() { $(this).hoverdir(); } );
+
+			});
+		</script>
+    </body>
+</html>
